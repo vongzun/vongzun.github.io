@@ -9,7 +9,7 @@ function initPage() {
 // Show the navbar and add the sticky class to the navbar when you reach its scroll position. 
 // Hide the navbar and remove "sticky" when you leave the scroll position
 
-function includePubs() {
+/*function includePubs() {
   var url_string = window.location.href;
   //var url = new URL(url_string);
   //var url = "corelab.or.kr";
@@ -25,6 +25,7 @@ function includePubs() {
     $("#pubs").html(pubs);
   });
 }
+*/
 
 function toggleDisplayAbstract(paper_id) {
   isDisplayed = document.getElementById(paper_id).style.display;
