@@ -39,6 +39,7 @@ a {
 a:hover { 
 	color: #cf8a05;
 }
+
 #cv {
 	width: 90%;
 	max-width: 1000px;
@@ -151,7 +152,7 @@ ul {
 }
 
 #pubs p b {
-  /*font-weight: 500;*/
+  font-weight: 600;
 }
 
 section {
@@ -430,4 +431,7 @@ section:last-child {
 }
 .teaching p {
   margin-bottom: 8px;
+}
+.confjrnl {
+  text-decoration: none; color: #cf8a05;
 }
