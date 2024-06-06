@@ -432,6 +432,9 @@ section:last-child {
 .teaching p {
   margin-bottom: 8px;
 }
+.services p {
+  margin-bottom: 8px;
+}
 .confjrnl {
   text-decoration: none; color: #cf8a05;
 }
