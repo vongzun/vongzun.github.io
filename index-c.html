@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bongjun Kim</title>
+    <link rel="stylesheet" href="style-c.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="topbar">
+        <div class="topbar__inner">
+            <div class="topbar__nav">
+                <a href="#background">background</a>
+                <a href="#publications">publications</a>
+                <a href="#patents-section">patents</a>
+                <a href="#misc">misc</a>
+            </div>
+            <div class="topbar__actions">
+                <button id="theme-toggle">light</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero: compact identity -->
+        <header class="hero">
+            <div class="hero__photo">
+                <img src="img/bongjun-profile.jpg" alt="Bongjun Kim">
+            </div>
+            <div class="hero__info">
+                <h1 class="hero__name">Bongjun Kim<span class="cursor"></span></h1>
+                <p class="hero__role">Staff Researcher @ SAIT</p>
+                <p class="hero__org">AI System Platform, Samsung Advanced Institute of Technology</p>
+            </div>
+        </header>
+
+        <!-- Quick Links -->
+        <nav class="quick-links">
+            <a href="mailto:vongzun@gmail.com">email</a>
+            <a href="./bongjunkim-CV.pdf" target="_blank">cv.pdf</a>
+            <a href="http://kr.linkedin.com/in/kimbongjun" target="_blank">linkedin</a>
+            <a href="https://scholar.google.co.kr/citations?user=XSmJQUMAAAAJ&hl=en" target="_blank">scholar</a>
+            <a href="https://orcid.org/0000-0002-5142-0262" target="_blank">orcid</a>
+            <a href="https://www.webofscience.com/wos/author/record/56338086" target="_blank">wos</a>
+        </nav>
+
+        <!-- Research Interests -->
+        <div class="research-tags">
+            <div class="research-tags__title">Research Interests</div>
+            <div class="tags">
+                <span class="tag tag--compiler">MLIR</span>
+                <span class="tag tag--compiler">LLVM</span>
+                <span class="tag tag--compiler">Compiler Design</span>
+                <span class="tag tag--arch">Near-Memory Processing</span>
+                <span class="tag tag--ml">Deep Learning Compiler</span>
+                <span class="tag tag--arch">Heterogeneous Computing</span>
+                <span class="tag tag--compiler">Programming Model Design</span>
+            </div>
+        </div>
+
+        <main>
+            <!-- Background: education & experience first -->
+            <section id="background" class="section">
+                <div class="section__header">
+                    <span class="section__icon">#</span>
+                    <h2 class="section__title">background</h2>
+                </div>
+
+                <div class="collapsible open" id="col-education">
+                    <button class="collapsible__trigger" onclick="this.parentElement.classList.toggle('open')">
+                        <span>Education</span>
+                        <span class="collapsible__icon">&#9654;</span>
+                    </button>
+                    <div class="collapsible__body">
+                        <div class="timeline">
+                            <div class="timeline__item">
+                                <div class="timeline__date">2016.03 ~ 2021.08</div>
+                                <div class="timeline__title">Ph.D. in Computer Science and Engineering</div>
+                                <div class="timeline__sub">Pohang University of Science and Technology, POSTECH</div>
+                                <div class="timeline__desc">
+                                    Dissertation: "Semantic-aware Automatic Program Partitioning and Privacy-preserving Selective Encryption for Fog Computing"<br>
+                                    Advisor: Prof. Hanjun Kim and Prof. Jong Kim
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__date">2009.03 ~ 2016.02</div>
+                                <div class="timeline__title">B.S. in Computer Science and Engineering</div>
+                                <div class="timeline__sub">Pohang University of Science and Technology, POSTECH</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapsible open" id="col-experience">
+                    <button class="collapsible__trigger" onclick="this.parentElement.classList.toggle('open')">
+                        <span>Experience</span>
+                        <span class="collapsible__icon">&#9654;</span>
+                    </button>
+                    <div class="collapsible__body">
+                        <div class="timeline">
+                            <div class="timeline__item">
+                                <div class="timeline__date">2021.09 ~ Present</div>
+                                <div class="timeline__title">Staff Researcher</div>
+                                <div class="timeline__desc">AI System Platform, Samsung Advanced Institute of Technology (SAIT)</div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__date">2016.03 ~ 2021.08</div>
+                                <div class="timeline__title">Research Assistant</div>
+                                <div class="timeline__desc">Compiler Optimization Research Laboratory (CoreLab), POSTECH / Yonsei University</div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__date">2019.09 ~ 2020.01</div>
+                                <div class="timeline__title">Research Intern</div>
+                                <div class="timeline__desc">Samsung Advanced Institute of Technology (SAIT)</div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__date">2014.03 ~ 2016.02</div>
+                                <div class="timeline__title">Undergraduate Research Assistant</div>
+                                <div class="timeline__desc">Compiler Optimization Research Laboratory (CoreLab), POSTECH</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications -->
+            <section id="publications" class="section">
+                <div class="section__header">
+                    <span class="section__icon">#</span>
+                    <h2 class="section__title">publications</h2>
+                </div>
+                <div class="section__content">
+                    <div id="publications-container">
+                        <noscript><p>Please enable JavaScript to view publications.</p></noscript>
+                    </div>
+                </div>
+            </section>
+
+            <section id="patents-section" class="section">
+                <div class="section__header">
+                    <span class="section__icon">#</span>
+                    <h2 class="section__title">patents</h2>
+                </div>
+                <div class="section__content">
+                    <div id="patents-container"></div>
+                </div>
+            </section>
+
+            <!-- Misc: collapsible -->
+            <section id="misc" class="section">
+                <div class="section__header">
+                    <span class="section__icon">#</span>
+                    <h2 class="section__title">misc</h2>
+                </div>
+
+                <div class="collapsible" id="col-awards">
+                    <button class="collapsible__trigger" onclick="this.parentElement.classList.toggle('open')">
+                        <span>Awards</span>
+                        <span class="collapsible__icon">&#9654;</span>
+                    </button>
+                    <div class="collapsible__body">
+                        <ul class="item-list">
+                            <li>Silver Medal, Graduate Student Research Competition at International Symposium on Code Generation and Optimization (CGO), February 2020 (<a href="https://src.acm.org/winners/2020" target="_blank">Winners, SRC 2019-2020</a>)</li>
+                            <li>Best Oral Presentation Award, Student Workshop at Department of Computer Science and Engineering (POSTECH), September 2016</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="collapsible open" id="col-talks">
+                    <button class="collapsible__trigger" onclick="this.parentElement.classList.toggle('open')">
+                        <span>Talks</span>
+                        <span class="collapsible__icon">&#9654;</span>
+                    </button>
+                    <div class="collapsible__body">
+                        <ul class="item-list">
+                            <li>Tech Talk, "oneMCC: A New Programming Interface of Memory Centric Computing", oneAPI DevSummit Hosted by UXL Foundation 2024 (Virtual), October 2024 (<a href="https://oneapi.io/events/oneapi-devsummit-hosted-by-uxl-foundation/" target="_blank">Event Page</a>)</li>
+                            <li>Panelist, "Intel: Unlocking the Next 35 Years of Software for HPC and AI", Special Event at ISC High Performance 2024 (ISC-HPC), Hamburg, Germany, May 2024 (<a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Tools/Unlocking-the-Next-35-Years-of-Software-for-HPC-and-AI/post/1602037" target="_blank">Intel Blog</a>)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="collapsible" id="col-services">
+                    <button class="collapsible__trigger" onclick="this.parentElement.classList.toggle('open')">
+                        <span>Academic Services</span>
+                        <span class="collapsible__icon">&#9654;</span>
+                    </button>
+                    <div class="collapsible__body">
+                        <ul class="item-list">
+                            <li>Journal Reviewer, The Journal of Supercomputing (3 papers), 2024</li>
+                            <li>Journal Reviewer, Cluster Computing, 2024</li>
+                            <li>Journal Reviewer, IEEE Transactions on Cloud Computing (TCC), 2021</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="collapsible" id="col-teaching">
+                    <button class="collapsible__trigger" onclick="this.parentElement.classList.toggle('open')">
+                        <span>Teaching</span>
+                        <span class="collapsible__icon">&#9654;</span>
+                    </button>
+                    <div class="collapsible__body">
+                        <ul class="item-list">
+                            <li>Lecturer, LLVM Tutorial on Program Analysis & Optimization, LIG Nex1, February 2018</li>
+                            <li>Teaching Assistant, CSED 423: Compiler Design, POSTECH, Spring 2017</li>
+                            <li>Teaching Assistant, CSED 312: Operating System, POSTECH, Fall 2017</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            &copy; 2026 Bongjun Kim
+        </footer>
+    </div>
+
+    <script src="js/publications.js"></script>
+    <script>
+        // Theme toggle (dark default)
+        const toggle = document.getElementById('theme-toggle');
+        if (toggle) {
+            const saved = localStorage.getItem('theme');
+            if (saved === 'light') {
+                document.documentElement.classList.add('light');
+                toggle.textContent = 'dark';
+            }
+            toggle.addEventListener('click', () => {
+                document.documentElement.classList.toggle('light');
+                const isLight = document.documentElement.classList.contains('light');
+                toggle.textContent = isLight ? 'dark' : 'light';
+                localStorage.setItem('theme', isLight ? 'light' : 'dark');
+            });
+        }
+
+        // Sticky nav active state
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.topbar__nav a');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    const link = document.querySelector(`.topbar__nav a[href="#${entry.target.id}"]`);
+                    if (link) link.classList.add('active');
+                }
+            });
+        }, { rootMargin: '-20% 0px -80% 0px' });
+        sections.forEach(s => observer.observe(s));
+
+    </script>
+</body>
+
+</html>
