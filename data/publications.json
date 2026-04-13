@@ -1,0 +1,226 @@
+[
+  {
+    "type": "conference",
+    "tag": "ISC-HPC'24",
+    "title": "Programming Model Extensions for General-Purpose Processing-In-Memory",
+    "authors": [
+      "Hyesun Hong",
+      "Lukas Sommer",
+      {"name": "Bongjun Kim", "note": "Oral Presenter"},
+      "Mikhail Kashkarov",
+      "Kumudha Narasimhan",
+      "Ilya Veselov",
+      "Mehdi Goli",
+      "Jaeyeon Kim",
+      "Ruyman Reyes Castro",
+      "Hanwoong Jung"
+    ],
+    "venue": "Proceedings of the 39th International Conference on High Performance Computing, ISC High Performance 2024 (ISC-HPC)",
+    "date": "May 2024",
+    "links": {
+      "abstract": "",
+      "ieee": "https://ieeexplore.ieee.org/document/10528942"
+    },
+    "impactFactor": null,
+    "notes": []
+  },
+  {
+    "type": "conference",
+    "tag": "FCCM'24",
+    "title": "MPC-Wrapper: Fully Harnessing the Potential of Samsung Aquabolt-XL HBM2-PIM on FPGAs",
+    "authors": [
+      "Jinwoo Choi",
+      "Yeonan Ha",
+      "Hanna Cha",
+      "Seil Lee",
+      "Sungchul Lee",
+      "Jounghoo Lee",
+      "Shin-haeng Kang",
+      "Bongjun Kim",
+      "Hanwoong Jung",
+      "Hanjun Kim",
+      "Youngsok Kim"
+    ],
+    "venue": "The 32nd IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+    "date": "May 2024",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=fccm24_mpc",
+      "ieee": "https://ieeexplore.ieee.org/document/10653651"
+    },
+    "impactFactor": null,
+    "notes": []
+  },
+  {
+    "type": "conference",
+    "tag": "EMSOFT'21",
+    "title": "Precise Correlation Extraction for IoT Fault Detection with Concurrent Activities",
+    "authors": [
+      "Gyeongmin Lee",
+      "Bongjun Kim",
+      "Seungbin Song",
+      "Changsu Kim",
+      "Jong Kim",
+      "Hanjun Kim"
+    ],
+    "venue": "Proceedings of the International Conference on Embedded Software (EMSOFT)",
+    "date": "October 2021",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=emsoft21_correlation",
+      "acm": "http://doi.org/10.1145/3477025",
+      "pdf": "http://corelab.or.kr/Pubs/emsoft21_correlation.pdf"
+    },
+    "impactFactor": null,
+    "notes": []
+  },
+  {
+    "type": "conference",
+    "tag": "RTAS'20",
+    "title": "Sharing-aware Data Acquisition Scheduling for Multiple Rules in the IoT",
+    "authors": [
+      "Seonyeong Heo",
+      "Seungbin Song",
+      "Bongjun Kim",
+      "Hanjun Kim"
+    ],
+    "venue": "Proceedings of the IEEE Real-Time And Embedded Technology And Applications Symposium (RTAS)",
+    "date": "April 2020",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=rtas20_sharing_aware_scheduling",
+      "ieee": "http://doi.org/10.1109/RTAS48715.2020.00-18",
+      "dataset": "http://github.com/corelab-src/smart-office-dataset",
+      "pdf": "http://corelab.or.kr/Pubs/rtas20_sharing_aware_scheduling.pdf"
+    },
+    "impactFactor": null,
+    "notes": []
+  },
+  {
+    "type": "conference",
+    "tag": "CC'19",
+    "title": "Spinal Code: Automatic Code Extraction for Near-User Computation in Fogs",
+    "authors": [
+      {"name": "Bongjun Kim", "note": "Oral Presenter"},
+      "Seonyeong Heo",
+      "Gyeongmin Lee",
+      "Seungbin Song",
+      "Jong Kim",
+      "Hanjun Kim"
+    ],
+    "venue": "Proceedings of the 28th International Conference on Compiler Construction (CC)",
+    "date": "February 2019",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=cc19_spinal_code",
+      "acm": "http://doi.org/10.1145/3302516.3307356",
+      "pdf": "http://corelab.or.kr/Pubs/cc19_spinal_code.pdf"
+    },
+    "impactFactor": null,
+    "notes": []
+  },
+  {
+    "type": "conference",
+    "tag": "RSP'17",
+    "title": "Rapid prototyping of IoT applications with Esperanto compiler",
+    "authors": [
+      "Gyeongmin Lee",
+      "Seonyeong Heo",
+      "Bongjun Kim",
+      "Jong Kim",
+      "Hanjun Kim"
+    ],
+    "venue": "Proceedings of the 28th International Symposium on Rapid System Prototyping (RSP)",
+    "date": "October 2017",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=rsp17_esperanto",
+      "acm": "http://doi.org/10.1145/3130265.3138857",
+      "pdf": "http://corelab.or.kr/Pubs/rsp17_esperanto.pdf"
+    },
+    "impactFactor": null,
+    "notes": ["Invited"]
+  },
+  {
+    "type": "conference",
+    "tag": "LCTES'17",
+    "title": "Integrated IoT Programming with Selective Abstraction",
+    "authors": [
+      "Gyeongmin Lee",
+      "Seonyeong Heo",
+      "Bongjun Kim",
+      "Jong Kim",
+      "Hanjun Kim"
+    ],
+    "venue": "Proceedings of the 18th ACM SIGPLAN/SIGBAD Conference on Languages, Compilers, Tools, and Theory for Embedded Systems (LCTES)",
+    "date": "June 2017",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=lctes17_esperanto",
+      "acm": "http://doi.org/10.1145/3078633.3081031",
+      "pdf": "http://corelab.or.kr/Pubs/lctes17_esperanto.pdf"
+    },
+    "impactFactor": null,
+    "notes": []
+  },
+  {
+    "type": "journal",
+    "tag": "IEEE IoT-J'21",
+    "title": "ComFlex: Composable and Flexible Resource Management for the IoT",
+    "authors": [
+      "Gyeongmin Lee",
+      "Bongjun Kim",
+      "Seungbin Song",
+      "Seonyeong Heo",
+      "Hanjun Kim"
+    ],
+    "venue": "IEEE Internet of Things Journal, Volume 8, Issue 22",
+    "date": "November 2021",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=ieeeiotj20_comflex",
+      "ieee": "http://doi.org/10.1109/jiot.2020.3022873",
+      "pdf": "http://corelab.or.kr/Pubs/ieeeiotj20_comflex.pdf"
+    },
+    "impactFactor": "IF=9.936, Q1 (JCR 2019)",
+    "notes": []
+  },
+  {
+    "type": "journal",
+    "tag": "IEEE IoT-J'21",
+    "title": "Compiler-assisted Semantic-aware Encryption for Efficient and Secure Serverless Computing",
+    "authors": [
+      "Bongjun Kim",
+      "Seonyeong Heo",
+      "Jaeho Lee",
+      "Shinnung Jeong",
+      "Yongwoo Lee",
+      "Hanjun Kim"
+    ],
+    "venue": "IEEE Internet of Things Journal, Volume 8, Issue 7",
+    "date": "April 2021",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=ieeeiotj21_selectivecrypt",
+      "github": "http://github.com/corelab-src/selectivecrypt",
+      "ieee": "http://doi.org/10.1109/JIOT.2020.3031550",
+      "pdf": "http://corelab.or.kr/Pubs/ieeeiotj21_selectivecrypt.pdf"
+    },
+    "impactFactor": "IF=9.936, Q1 (JCR 2019)",
+    "notes": []
+  },
+  {
+    "type": "journal",
+    "tag": "IEEE Micro'16",
+    "title": "Heterogeneous Distributed Shared Memory for Lightweight Internet-of-Things Devices",
+    "authors": [
+      "Bongjun Kim",
+      "Seonyeong Heo",
+      "Gyeongmin Lee",
+      "Soyeon Park",
+      "Hanjun Kim",
+      "Jong Kim"
+    ],
+    "venue": "IEEE Micro, Volume 36, Issue 6",
+    "date": "November 2016",
+    "links": {
+      "abstract": "http://corelab.or.kr/Pubs/pubs.php?abs=1&setselect=ieeemicro16_iot_hdsm",
+      "ieee": "http://doi.org/10.1109/MM.2016.103",
+      "pdf": "http://corelab.or.kr/Pubs/ieeemicro16_iot_hdsm.pdf"
+    },
+    "impactFactor": "IF=1.933, Q2 (JCR 2016)",
+    "notes": []
+  }
+]

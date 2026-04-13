@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Electronic device and method with hardware acceleration",
+    "inventors": ["Youngsok Kim", "Jounghoo Lee", "Yeonan Ha", "Sangsu Lee", "Bongjun Kim"],
+    "patentNumber": "US Patent No. 12,554,632 B2",
+    "date": "February 2026",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/US12554632B2"
+    }
+  },
+  {
+    "title": "Near-memory operator and method with accelerator performance improvement",
+    "inventors": ["Gyeongmin Lee", "Bongjun Kim", "Seungwon Lee", "Hanwoong Jung"],
+    "patentNumber": "US Patent No. 12,524,236 B2",
+    "date": "January 2026",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/US12524236B2"
+    }
+  },
+  {
+    "title": "Electronic device and method with processing in memory operation",
+    "inventors": ["Youngsok Kim", "Sungchul Lee", "Seil Lee", "Suhyun Lee", "Jounghoo Lee", "Chaemin Lim", "Hanna Cha", "Jinwoo Choi", "Yeonan Ha", "Bongjun Kim", "Hanwoong Jung"],
+    "patentNumber": "US Patent App. US 2025/0335126 A1",
+    "date": "October 2025",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/US20250335126A1"
+    }
+  },
+  {
+    "title": "Method and device with iterative compilation for deep learning",
+    "inventors": ["Gyeongmin Lee", "Bongjun Kim", "Hanwoong Jung"],
+    "patentNumber": "US Patent App. US 2024/0411532 A1",
+    "date": "May 2024",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/US20240411532A1"
+    }
+  },
+  {
+    "title": "Electric device and method with hardware-optimized compilation",
+    "inventors": ["Bongjun Kim", "Gyeongmin Lee", "Hanwoong Jung"],
+    "patentNumber": "US Patent App. US 2024/0411531 A1",
+    "date": "May 2024",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/US20240411531A1"
+    }
+  },
+  {
+    "title": "IoT Service Providing Method Based on Adaptive Encryption and IoT Apparatus",
+    "inventors": ["Hanjun Kim", "Bongjun Kim", "Jaeho Lee", "Seonyeong Heo", "Shinnung Jeong", "Yongwoo Lee"],
+    "patentNumber": "KR Patent No. 10-2508448",
+    "date": "March 2023",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/KR102508448B1"
+    }
+  },
+  {
+    "title": "Scheduling Apparatus and Method based on Data Sharing between Multiple Rules in IoT Environment",
+    "inventors": ["Hanjun Kim", "Seungbin Song", "Bongjun Kim", "Seonyeong Heo"],
+    "patentNumber": "KR Patent No. 10-2382328",
+    "date": "March 2022",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/KR102382328B1"
+    }
+  },
+  {
+    "title": "Write Control Method and Disk Controller for Automated Backup and Recovery",
+    "inventors": ["Hanjun Kim", "Seonyeong Heo", "Jong Kim", "Bongjun Kim"],
+    "patentNumber": "KR Patent No. 10-2189607",
+    "date": "December 2020",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/KR102189607B1"
+    }
+  },
+  {
+    "title": "Heterogeneous Distributed Shared Memory For IoT Devices",
+    "inventors": ["Bongjun Kim", "Jong Kim", "Soyeon Park", "Hanjun Kim", "Seonyeong Heo", "Gyeongmin Lee"],
+    "patentNumber": "KR Patent No. 10-1857907",
+    "date": "May 2018",
+    "links": {
+      "google_patents": "https://patents.google.com/patent/KR101857907B1"
+    }
+  }
+]
